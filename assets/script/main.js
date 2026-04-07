@@ -3,7 +3,7 @@
     const valueEl = document.getElementById('circle-value');
     if (!circle || !valueEl) return;
 
-    const duration = 1200; // 1.2s
+    const duration = 500; // 0.5s
     const startTime = performance.now();
 
     function animate(time) {
