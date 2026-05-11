@@ -17,6 +17,23 @@ body { background:#fff; color:#000; }
 .circle-progress::after { content:""; position:absolute; inset: 19px; border-radius:50%; background:#000; }
 .circle-value { position:relative; z-index:2; color:#00c85e; font-size:4rem; font-weight:900; line-height:1; }
 
+/* Responsive Image Styling */
+.top_picture {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top_picture img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
 .mini-footer { color:#fff; margin-top:30px; font-size:0.85rem; line-height:1.45; }
 .terms-title { color:#fff; text-decoration:underline; display:inline-block; margin-bottom:10px; }
 .mini-footer p { margin:0; }
