@@ -20,7 +20,7 @@ body { background:#fff; color:#000; }
 /* Responsive Image Styling */
 .top_picture {
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
     margin: 20px auto;
     display: flex;
     justify-content: center;
